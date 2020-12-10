@@ -1,5 +1,9 @@
 sudo: false  # run travis jobs in containers
 language: python
+arch:
+  - amd64
+  - ppc64le
+  
 python:
   - 2.7
   - 3.4
